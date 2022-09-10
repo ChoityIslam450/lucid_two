@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+ background-image: url(../images/banner_one.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 90vh;
+ position: relative;
+ text-align: center;
+ z-index: 0;
+
+}
+
+header::before{
+ content: '';
+ position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: .5;
+z-index: -1;
+}
+.navbar{
+  padding:0;
+  margin-bottom: 0;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+width:100%
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    z-index: -1;
+    transition: .4s all ease-in-out;
+}
+
+.banner_text{
+
+margin-top: 70px;
+
+align-items: center;
+}
+.banner_text h3{
+
+color: #0d6efd;
+
+font-size: 20px;
+}
+.banner_text h1{
+
+color: #fff;
+
+font-size: 45px;
+
+padding: 20px 0;
+}
+.banner_text p {
+
+color: #fff;
+
+font-size: 14px;
+}
+.btn-learn{
+
+border: none;
+
+border: 2px solid #008ed6;
+
+color: #fff;
+}
+.btn-learn:hover{
+background-color: #008ed6;
+opacity: .9;
+color: #fff;
+}
+.phone_img{
+
+}
+.second_part{
+}
+.second_text{
+
+text-align: center;
+}
+.second_text h3{
+
+font-size: 16px;
+
+margin-top: 45px;
+}
+.second_text h1{
+
+font-size: 40px;
+
+padding: 15px 0;
+}
+.second_text span{
+
+margin-left: 635px;
+
+height: 5px;
+
+width: 70px;
+
+background: #084298;
+}
+.icon_circel{
+
+margin-top: 40px;
+
+text-align: center;
+}
+.icon_circel i{border: none;padding: 0;margin: 0'';border: 2px solid #adb5bd;padding: 30px 30px;border-radius: 50px;font-size: 30px;color: #008ed6;}
+.icon_circel h2{
+
+font-size: 30px;
+
+font-weight: 600;
+
+margin-top: 40px;
+
+font-family: lato;
+}
+.icon_circel p{
+
+font-size: 14px;
+
+color: #e7e7e7;
+
+font-weight: 600;
+}
+.third_part{
+
+margin-top: 110px;
+}
+.mobile_img{
+}
+
+.mobile_text{
+
+margin-right: 25%;
+}
+.mobile_text h5{
+
+font-size: 18px;
+
+color: #2697d9;
+}
+.mobile_text h2{
+
+font-size: 35px;
+
+padding: 20px 0;
+}
+.mobile_text span{
+}
+.mobile_text p{
+
+font-size: 16px;
+
+color: #d3d3d3;
+}
+.mobile_text ul{
+
+}
+.mobile_text ul li{
+
+list-style: none;
+
+font-size: 14px;
+
+font-weight: 600;
+
+margin-top: 20px;
+}
+.mobile_text ul li a{
+    
+}
+
+
+
+
+
+
+
+
+
+
